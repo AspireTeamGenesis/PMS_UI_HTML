@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/ad58591d53.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="user.css">
+    <title>Admin panel</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="user">
+                <img src="logo.jpg" alt="">
+            </div>
+            <div class="logo">
+                <h2>Profile Management</h2>
+            </div> 
+            <!-- <div class="user">
+                <img src="img/doctor1.png" alt="">
+            </div>           -->
+        </div>
+        <div class="sidebar">
+            <ul>
+                <div class="d-flex flex-column">
+                    <div class="profile">
+                        <img src="profile.png" alt="" class="img-fluid rounded-circle">
+                        <h1 class="text-light">UserName</h1>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-house text-dark"></i>
+                            <div>Home</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-address-card text-dark"></i>
+                            <div>Myprofile</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-box-archive text-dark"></i> 
+                            <div>Profile History</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-key text-dark"></i>
+                            <div>Change Password</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-right-from-bracket text-dark"></i>
+                            <div>SignOut</div>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="main w-100 text-center">
+                <!-- code type here -->
+                <div class="container">
+                    <!-- <header>Signup Form</header> -->
+                    <div class="progress-bar">
+                        
+                     <div class="form-outer text-center">
+                             <div class="title text-center">
+                               <center><h1>USER CREATION</h1></center>
+                             </div>
+                        <form action="#">
+                           <div class="page slide-page  d-flex justify-content-center">
+                      
+                             <div class="field">
+                                <div class="label">
+                                   Name
+                                </div>
+                                <input type="text">
+                             </div>
+                             <div class="field">
+                                <div class="label">
+                                   Mail Address
+                                </div>
+                                <input type="text">
+                             </div>
+                             <div class="field">
+                                <div class="label">
+                                   UserName
+                                </div>
+                                <input type="text">
+                             </div>
+                             <div class="field">
+                                <div class="label">
+                                   Password
+                                </div>
+                                <input type="password">
+                                
+                             </div>
+                             <div class="field">
+                                <div class="label">
+                                   Gender
+                                </div>
+                               <input type="radio" name="gender" value="Male"><label>Male</label>
+                                <input type="radio" name="gender" value="Female"><label>Female</label>
+                                <input type="radio" name="gender" value="Female"><label>Others</label>
+
+
+                                <!-- <input type="radio">
+                                <div class="label1">
+                                    Male
+                                 </div>
+                                <input type="radio">
+                                <div class="label1">
+                                    Female
+                                 </div>
+                                <input type="radio">
+                                <div class="label1">
+                                    Other
+                                 </div> -->
+                             </div>
+                             <!-- <div class="field1">
+                                <input type="radio" name="gender" value="Male">Male
+                                <input type="radio" name="gender" value="Female">Female
+                                <input type="radio" name="gender" value="Female">Others
+                             </div> -->
+
+                             <div class="field"> 
+                                 <div class="label">
+
+                                 
+                                   Mobile Number
+                                </div>
+                                <select style="width:5rem">
+                                    <option>+91</option>
+                                    <option>+44</option>
+                                    <option>+213</option>
+                                    <option>+1</option>
+                                    <option>+55</option>
+                                 </select>
+                                <input type="text">
+                             </div>
+                             <div class="field">
+                                <div class="label">
+                                   Organization
+                                </div>
+                                <select>
+                                    <option>None</option>
+                                   <option>UI/UX</option>
+                                   <option>Support</option>
+                                   <option>AI</option>
+                                   <option>Server</option>
+                                </select>
+                             </div>
+                             <div class="field">
+                                <div class="label">
+                                   Designation
+                                </div>
+                                <select>
+                                    <option>None</option>
+                                    <option>PM</option>
+                                    <option>TL</option>
+                                    <option>ML</option>
+                                    <option>SSE</option>
+                                    <option>SE</option>
+                                 </select>
+                                
+                             </div>
+                             <div class="field">
+                                <div class="label">
+                                   Reporting Person
+                                </div>
+                                <select>
+                                    <option>None</option>
+                                    <option>Aakash</option>
+                                    <option>Vinay Vinson</option>
+                                    <option>Bala</option>
+                                    <option>Sathish</option>
+                                    <option>Vijay</option>
+                                 </select>
+                                
+                             </div>
+                             <div class="field btns">
+                                
+                                <button class="submit">Submit</button>
+                             </div>
+                          </div>
+                          
+                       </form>
+                    </div>
+                 </div>
+                 <script src="wizard.js"></script>
+            </div>
+        </div>
+  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="chart1.js"></script>
+    <script src="chart2.js"></script>
+</body>
+
+</html>
