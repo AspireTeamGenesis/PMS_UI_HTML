@@ -4,76 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile</title>
+
     <script src="https://kit.fontawesome.com/ad58591d53.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="createprofile.css">
-    <title>Admin panel</title>
+    <link rel="stylesheet" href="myprofile.css">
 </head>
 
 <body>
+
     <div class="container">
+
         <div class="topbar">
             <div class="user">
-                <img src="logo.jpg" alt="">
+                <img src="logo.jpeg" alt="">
             </div>
             <div class="logo">
                 <h2>Profile&nbsp;Management</h2>
-            </div> 
-            <!-- <div class="user">
-                <img src="img/doctor1.png" alt="">
-            </div>           -->
+            </div>
         </div>
+
         <div class="sidebar">
             <ul>
                 <div class="d-flex flex-column">
                     <div class="profile">
-                        <img src="profile.png" alt="" class="img-fluid rounded-circle">
+                        <img src="profilecd.jpeg" alt="" class="img-fluid rounded-circle">
                         <h1 class="text-light">UserName</h1>
                     </div>
                 </div>
-                <ul>
-                    <li>
-                        <a href="homepg.html">
-                            <i class="fa-solid fa-house text-dark"></i>
-                            <div>Home</div>
-                        </a>
-                    </li>
-                    <li >
-                        <a href="#">
-                            <i class="fa-solid fa-address-card text-dark"></i>
-                            <div>Myprofile</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="profilehistory.html">
-                            <i class="fa-solid fa-box-archive text-dark"></i> 
-                            <div>Profile History</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="changepassword1.html">
-                            <i class="fa-solid fa-key text-dark"></i>
-                            <div>Change Password</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="login.html">
-                            <i class="fa-solid fa-right-from-bracket text-dark"></i>
-                            <div>SignOut</div>
-                        </a>
-                    </li>
-                    
-                </ul>
+                <li>
+                    <a href="homepg.html">
+                        <i class="fa-solid fa-house text-dark"></i>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="createprofile.html">
+                        <i class="fa-solid fa-address-card text-dark"></i>
+                        <p>MyProfile</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="profilehistory.html">
+                        <i class="fa-solid fa-box-archive text-dark"></i>
+                        <p>Profile History</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="changepassword.html">
+                        <i class="fa-solid fa-key text-dark"></i>
+                        <p>Change Password</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="login1.html">
+                        <i class="fa-solid fa-right-from-bracket text-dark"></i>
+                        <p>SignOut</p>
+                    </a>
+                </li>
+                <div class="profile1">
+                    <div class="social-links mt-3 text-center">
+                        <h1 class="text-light">Contact Us</h1>
+                        <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+
+                    </div>
+                </div>
             </ul>
         </div>
+
         <div class="main">
             <div class="container">
 
                 <div class="content">
                     <div class="text-content d-flex space-between">
-                        <p><a href="homedup.html">Home</a> <i class="fa-solid fa-angle-right"></i> <a
-                                href="createprofile.html">Profile</a></p>
+                        <p><a href="homepg.html">Home</a> <i class="fa-solid fa-angle-right"></i> <a
+                                href="./profile.html">Profile</a></p>
                         <h2 class="userInfo">MyProfile <span>UserName</span></h2>
                         <span></span>
                     </div>
@@ -81,25 +89,22 @@
 
                 <div class="border-box">
                     <div class="content">
-                        <h2 >
+                        <h2>
                             No Profle has been created
-                        </h2>                        
-                        <h2  >
+                        </h2>
+                        <h2>
                             Click +, to create your profle
                         </h2>
                         <div class="d-flex align-items-center justify-content-center">
-                           <a href="wizard.html"><button class="btn btn-circular">+</button></a> 
+                            <a href="final.html"><button class="btn btn-circular">+</button></a>
                         </div>
                     </div>
                 </div>
 
             </div>
-        </div>      
+        </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
-    <script src="chart1.js"></script>
-    <script src="chart2.js"></script>
+
 </body>
 
 </html>

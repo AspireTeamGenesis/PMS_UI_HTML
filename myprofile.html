@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +16,7 @@
     <div class="container">
         <div class="topbar">
             <div class="user">
-                <img src="logo.jpg" alt="">
+                <img src="logo.jpeg" alt="">
             </div>
             <div class="logo">
                 <h2>Profile&nbsp;Management</h2>
@@ -27,7 +26,7 @@
             <ul>
                 <div class="d-flex flex-column">
                     <div class="profile">
-                        <img src="profile.png" alt="" class="img-fluid rounded-circle">
+                        <img src="profilecd.jpeg" alt="" class="img-fluid rounded-circle">
                         <h1 class="text-light">UserName</h1>
                     </div>
                 </div>
@@ -37,8 +36,8 @@
                         <p>Home</p>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="active">
+                    <a href="myprofile.html">
                         <i class="fa-solid fa-address-card text-dark"></i>
                         <p>MyProfile</p>
                     </a>
@@ -50,13 +49,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="changepassword1.html">
+                    <a href="changepassword.html">
                         <i class="fa-solid fa-key text-dark"></i>
                         <p>Change Password</p>
                     </a>
                 </li>
                 <li>
-                    <a href="loginindex.html">
+                    <a href="login1.html">
                         <i class="fa-solid fa-right-from-bracket text-dark"></i>
                         <p>SignOut</p>
                     </a>
@@ -76,10 +75,10 @@
 
             <div class="container">
 
-                <div class="content p20">
-                    <div class="text-content d-flex space-between">
-                        <p><a href="homepg.html">Home</a> <i class="fa-solid fa-angle-right"></i> <a
-                                href="myprofile.html">Profile</a></p>
+                <div class="content p20 ">
+                    <div class="text-content d-flex space-evenly responsive-container-column">
+                        <!-- <p><a href="./home.html">Home</a> <i class="fa-solid fa-angle-right"></i> <a
+                                href="./profile.html">Profile</a></p> -->
                         <h2>MyProfile</h2>
                         <span>Status: <span class="green">Approved</span> <br>
                             <p>Last approved date: Mar 1 2022</p>
@@ -87,35 +86,45 @@
                     </div>
                 </div>
 
-                <div class="content d-flex">
+                <div class="content d-flex responsive-container">
                     <div class="info-banner">
                         <hr>
                         <div class="content">
-                            <div class="card d-flex">
-                                <img src="logo.jpg" alt="logo" class="logo">
+                            <div class="card d-flex responsive-container-column">
+                                <img src="logo.jpeg" alt="logo" class="logo">
                                 <span>
                                     <h3 class="card-title">Objective</h3>
                                     <p>To obtain a high qualitive environment engineering where my
                                         resourcceful experience and Academics willk Add value to the organisational
-                                        operations</p>
+                                        operations
+                                    </p>
                                 </span>
                             </div>
                             <hr>
-                            <div class="card d-flex flex-column collapsable">
+                            <div class="card d-flex flex-column collapsable ">
                                 <div class="d-flex space-between line-height">
                                     <h3 class="card-title d-flex collapse">
-                                        <i class="fa-solid fa-graduation-cap icon"></i>Education
+                                        <i class="fa fa-certificate fa-fw icon tan"></i>Education
                                     </h3>
                                 </div>
-                                <div class="content d-flex space-between align-items-center">
-                                    <div class="text-content">
-                                        <p>Sri krishna college of engineering</p>
+                                <div class="content d-flex space-between align-items-center ">
+                                    <div class="text-content align-items-center">
+                                        <div class="d-flex responsive-container-column space-between">
+                                            <div class="title">
+                                                <h5>
+                                                    <b>Sri Krishna College of Engineering.</b>
+                                                </h5>
+                                            </div> 
+                                            <div class="card-calender d-flex">
+                                                <p><i class="fa-regular fa-calendar icon"></i>2001-2004</p>
+                                            </div>
+                                        </div>                                                                               
                                         <p>Bachelor of Engineering (Electronics and Communication Engineering)</p>
                                         <p>9.2 CGPA</p>
                                     </div>
-                                    <div class="card-calender d-flex">
+                                    <!-- <div class="card-calender d-flex">
                                         <p><i class="fa-regular fa-calendar icon"></i>2001-2004</p>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <hr>
@@ -125,12 +134,10 @@
                                 <div class="content">
                                     <div class="text-content">
                                         <div class="align-items-center">
-                                            <h3>Domain: </h3>
-                                            <p>.Net, oracle, BFS</p>
+                                            <p><b>Domain : </b>.Net, oracle, BFS</p>                                            
                                         </div>
                                         <div class="align-items-center">
-                                            <h3>Technology: </h3>
-                                            <p>ASP.net, Javascript, C#, SQL</p>
+                                            <p><b>Technology: </b>ASP.net, Javascript, C#, SQL</p>
                                         </div>
                                     </div>
                                 </div>
@@ -144,12 +151,26 @@
                                 </div>
                                 <div class="content d-flex space-between align-items-center">
                                     <div class="text-content collapsable">
-                                        <p class="collapse">
+                                        <!-- <div class="content no-pad d-flex space-between responsive-container-column">
+
+                                            <p class="collapse">
                                             <b>Management Information System</b>
+                                            <div class="card-calender d-flex">
+                                                <p><i class="fa-regular fa-calendar calendar-icon"></i>Aug 2005 - Dec 2006</p>
+                                            </div>
                                         </p>
-                                        <div class="card-calender d-flex">
-                                            <p><i class="fa-regular fa-calendar calendar-icon"></i>Aug 2005 - Dec 2006</p>
-                                        </div>
+                                        
+                                        </div>                                         -->
+                                        <div class="d-flex responsive-container-column space-between">
+                                            <div class="title">
+                                                <h5>
+                                                    <b>Management Information Sustems</b>
+                                                </h5>
+                                            </div> 
+                                            <div class="card-calender d-flex">
+                                                <p><i class="fa-regular fa-calendar icon"></i>Aug 2001- Dec2004</p>
+                                            </div>
+                                        </div>  
                                         <p>
                                             An integrated platform that manages the organization's Employee details,
                                             Employee Leave details and Employee performance details.
@@ -160,17 +181,16 @@
                                         <p>
                                             <strong>Tool Used</strong> : Vistual Studio , SQL Management Studio , Microsoft Office.
                                         </p>
-                                        <hr>
-                                    </div>                                       
+                                    </div>
+                                    <!-- <div class="card-calender d-flex">
+                                        <p><i class="fa-regular fa-calendar calendar-icon"></i>Aug 2005 - Dec 2006</p>
+                                    </div><hr> -->
                                 </div>
                                 <div class="content d-flex space-between align-items-center">
                                     <div class="text-content collapsable">
                                         <p class="collapse">
                                             <b>Profile Management System</b>
                                         </p>
-                                        <div class="card-calender ">
-                                            <p><i class="fa-regular fa-calendar calendar-icon"></i>Aug 2007 - Jan 2009</p>
-                                        </div>
                                         <p>
                                             An integrated platform that manages the organization's Employee details,
                                             Employee Leave details and Employee performance details.
@@ -181,13 +201,15 @@
                                         <p>
                                             <strong>Tool Used</strong> : Vistual Studio , SQL Management Studio , Microsoft Office.
                                         </p>
-                                        <hr>
-                                    </div>                                                                                             
+                                    </div>
+                                    <div class="card-calender d-flex">
+                                        <p><i class="fa-regular fa-calendar calendar-icon"></i>Aug 2007 - Jan 2009</p>
+                                    </div>
                                     <hr>
                                 </div>
                                 <div class="content d-flex space-between align-items-center">
                                     <div class="text-content collapsable">
-                                        <p class="collapse">
+                                      <p class="collapse">
                                             <b>Library Management System</b>
                                         </p>
                                         <div class="card-calender d-flex">
@@ -203,7 +225,8 @@
                                         <p>
                                             <strong>Tool Used</strong> : Vistual Studio , SQL Management Studio , Microsoft Office.
                                         </p>
-                                    </div>                                                                                                    
+                                    </div>
+                                    
                                 </div>
                             </div><hr>                                                                                 
                         </div>
@@ -214,30 +237,31 @@
                     <div class="profile-banner">
                         <div class="card">
                             <div class="img-box d-flex space-around">
-                                <img src="profile.png" alt="profile-picture" class="img-fluid profile-image">
+                                <img src="default_profile.png" alt="profile-picture"
+                                    class="img-fluid profile-image">
                             </div>
                             <div class="text-content">
-                                <h2>Naga</h2>
+                                <h2>Antony</h2>
                                 <ul class="no-list-style">
-                                    <li class="list-item d-flex">
+                                    <li class="list-item d-flex-inline">
                                         <span class="icon"><i class="fa-solid fa-house-chimney"></i></span>
                                         <p>India</p>
                                     </li>
-                                    <li class="list-item d-flex">
+                                    <li class="list-item d-flex-inline">
                                         <span class="icon"><i class="fa-solid fa-envelope"></i></span>
                                         <p>xyz@gmail.com</p>
                                     </li>
-                                    <li class="list-item d-flex">
+                                    <li class="list-item d-flex-inline">
                                         <span class="icon"><i class="fa-solid fa-phone"></i></span>
                                         <p>+91 8976897654</p>
                                     </li>
-                                    <li class="list-item d-flex">
+                                    <li class="list-item d-flex-inline">
                                         <span class="icon"><i class="fa-brands fa-twitter"></i></span>
-                                        <p>https://www.twitter.com/naga</p>
+                                        https://www.twitter.com/naga
                                     </li>
-                                    <li class="list-item d-flex">
+                                    <li class="list-item d-flex-inline">
                                         <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
-                                        <p>https://www.linkedin.com/naga?_l=en_US</p>
+                                        https://www.linkedin.com/naga?_l=en_US
                                     </li>
                                 </ul>
                             </div>
@@ -246,16 +270,14 @@
                         <div class="text-content">
                             <div class="card">
                                 <h3 class="card-title d-flex collapse">
-                                    <i class="fa-solid fa-graduation-cap icon"></i>
+                                    <i class="fa fa-paper-plane icon" aria-hidden="true"></i>
                                     Achievements
                                 </h3>
-                                <div class="img-box d-flex space-around p20">
-                                    <img src="profile.png" alt="profile-picture"
-                                        class="img-fluid achievements-image">
+                                <div class="img-box d-flex space-around">
+                                    <img src="certificate1.png" alt="profile-picture" class="img-fluid achievements-image">
                                 </div>
                                 <div class="img-box d-flex space-around">
-                                    <img src="profile.png" alt="profile-picture"
-                                        class="img-fluid profile-image">
+                                    <img src="certificate2.png" alt="profile-picture" class="img-fluid achievements-image">
                                 </div>
                             </div>
                         </div>
@@ -267,8 +289,8 @@
                                     Certificates
                                 </h3>
                                 <div class="img-box d-flex space-around p20">
-                                    <img src="profile.png" alt="profile-picture"
-                                        class="img-fluid profile-image">
+                                    <img src="default_profile.png" alt="profile-picture"
+                                        class="img-fluid achievements-image">
                                 </div>
                             </div>
                         </div>
@@ -276,7 +298,7 @@
                         <div class="text-content">
                             <div class="card">
                                 <h3 class="card-title d-flex collapse">
-                                    <i class="fa-solid fa-graduation-cap icon"></i>
+                                    <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal icon"></i>
                                     Languages known
                                 </h3>
                                 <ul class="no-list-style">
@@ -292,13 +314,8 @@
                         <hr>
                     </div>
                 </div>
-                <div class="profile-footer d-flex">  
-                    <div class="child">
-                        <p>last updated date: 23.03.2001</p>
-                    </div>              
-                    <div class="icons ">
-                        <i class=" fa fa-solid fa-square-share-nodes"></i><i class="fa fa-solid fa-square-pen"></i><i class="fa fa-solid fa-download"></i>
-                    </div>                    
+                <div class="profile-footer align-items-center">
+                    <p><span>Aspire Systems</span></p>
                 </div>                
 
             </div>
