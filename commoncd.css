@@ -37,14 +37,10 @@
 }
 
 html {
-    font-family: 'poppins',sans-serif;
+    font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.icon{
-    font-size: 25px;
 }
 
 article,
@@ -57,7 +53,7 @@ hgroup,
 main,
 nav,
 section {
-    display:block;
+    display: block;
 }
 
 body {
@@ -272,6 +268,7 @@ select {
 
 select {
     word-wrap: normal;
+    height: 51px;
 }
 
 button,
@@ -5132,8 +5129,6 @@ input[type="button"].btn-block {
     flex: 1 1 auto;
     padding: 1.25rem;
 }
-
-  
 
 .card-title {
     margin-bottom: 0.75rem;
@@ -10909,7 +10904,7 @@ a.text-dark:focus {
 body {
     font-family: "Poppins", Arial, sans-serif;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.8;
     font-weight: normal;
     background: #fafafa;
     color: gray;
@@ -10956,7 +10951,7 @@ h5,
 .h5 {
     line-height: 1.5;
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     color: #000;
 }
 
@@ -11017,7 +11012,6 @@ h5,
     -o-transition: all 0.3s;
     transition: all 0.3s;
     position: relative;
-    z-index: 3;
 }
 
 #sidebar .h6 {
@@ -11264,183 +11258,40 @@ button {
     border-radius: 15px;
     color: lightgrey;
 }
-.card-title{
-    cursor: pointer;
-}
-
-.card-content{
-    max-height: 0px;
-    overflow: hidden;
-    transition: 200ms ease-in-out;
-}
-
-.fas {
-    color: rgb(0, 45, 82);
-}
 
 
+/* Changes */
 
-.footer {
-    position: relative;
-    bottom: -50px;
-    left: 0;
-}
-.img {
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    width: 100%;
-}
-.mtr-1 {
-    margin-top: 1rem;
-    margin-right: 1em;
-}
-
-.plr-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.mr-2 {
-    margin-right: 3px;
-}
-
-.n-header {
-    align-items: center;
-}
-
-.approved {
-    color: green;
-}
-
-.text-right {
-    text-align: right;
-}
-
-body {
-    font-family: 'sans-serif', 'poppins';
-}
-.footer-icons{
-    font-size: 30px;
-}
-
-/* card for profileinformation and personal information */
-.n-card {
-    /* border: 1px solid #a19291; */
-    max-width: 40rem;
-    /* margin-left: 2rem; */
-    margin-top: 1rem;
-  }
-  
-  /* Tablebox overwritten */
-  .n-table-box {
-    padding-top: 100px;
+.table-box {
+    padding-top: 120px;
     margin-bottom: 50px;
-  }
-  /* Rounded border for profile image */
-  .n-round {
-    border-radius: 50%;
-  }
+}
 
-  /* media query for footer maximum width: 768 */
-@media (max-width: 768px) {
-    .footer .text-center {
-      text-align: right;
-    }
-  }
-  
-  /* Media query for 1200 margin left */
-  
-  @media (min-width: 992px) and (max-width: 1600px) {
-    div .n-d-flex {
-      margin-left: 20%;
-    }
-    .msg{
-        margin-left: 30%;
-    }
+
+@media (max-width: 576px) {
    
-    .block{
-        margin-left: 20%;
+    #sidebar {
+        top: 80px;
+        z-index: 100;
     }
-    
-  }
-  @media (min-width: 1600px) and (max-width: 1724px) {
-    div .n-d-flex {
-      margin-left: 10%;
+}
+@media (min-width: 1900px) {
+   
+    #sidebar {
+        top: 110px;
+        z-index: 100;
     }
-    .block{
-        margin-left: 10%;
-    }
-  }
-
-  /* for creating createproffile page*/
-
-  .main {
-    position: absolute;
-    top: 60px;
-    width: calc(100% - 260px);
-    min-height: calc(100vh - 60px);
-    left: 260px;
-    background: #f5f5f5;
 }
-.content {
-    width: 100%;
-    font-size: 15px;
-    padding: 10px 20px;
-    height: 65vh;
+.mobilenum{
+    float: right;
+    width:75%;
 }
-div .center{
-    height: 400px;
+.mobilenum1{
+    float: left;
+    /* width:50%; */
+    /* height: 80px; */
 }
-
-  .border-box{
-    max-width: 80vw;
-    padding: 10px 25px;
-    margin: 0px 30px;
-    min-height: 60vh;
-    
-    align-items: center;
-    justify-content: center;    
+.submit{
+    border-radius: 0px;
+    width: 50%;
 }
-
-.btn{
-    padding: 5px 10px;
-    font-size: 16px;
-    font-weight: 600;
-    display: inline-block;
-    border: 1px solid #000000;
-    color: #ffffff;
-    background-color: #967bb6;
-}
-.btn-circular{
-    border-radius: 50%;
-}
-
-.n-container { 
-    height: 200px;
-    position: relative;
-    border: 3px solid green; 
-  }
-  
-  .center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
-  .mt-10
-  {
-    margin-top: 100px;
-  }
-
-  .gray h5{
-      color: #6c757d;
-      margin-top: 20px;
-  }
-
-  .block{
-      margin-top: 20px;
-  }

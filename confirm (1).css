@@ -9,7 +9,7 @@
   }
   
   body {
-    font-family: Montserrat, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;    margin: 0;
+    font-family:'Poppins',sans-serif;    margin: 0;
     display: grid;
     /* place-items: center; */
     min-height: 100vh;
@@ -117,22 +117,24 @@
   
   /* Form */
   .form {
-    width: clamp(520px, 50%, 630px);
+    width: 600px;
+    /* width: clamp(700px, 50%, 700px); */
     margin: 0 auto;
     border: 1px solid #ccc;
     border-radius: 0.35rem;
-    padding: 2.5rem;
+    padding:3rem;
+    height: 1200px;;
   }
   
   .form-step {
     display: none;
     transform-origin: top;
-    animation: animate 0.5s;
+    width: 1000px;
+    /* animation: animate 0.5s; */
   }
   
   .form-step-active {
     display: block;
-    position: relative;
   }
   
   .input-group {
@@ -164,22 +166,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
-    margin-left:95%;
-    grid-column-start: auto;
-    grid-auto-rows: 500px;
-  }
-  .btns-group2 {
-    width:150px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
-    grid-column-start: auto;
-    grid-auto-rows: 50px;
-    margin-left:113%;
+    margin-left:140%;
   }
   
   .btn {
     /* padding: 0.75rem; */
+    width: 130px;
     display: block;
     text-decoration: none;
     background-color: var(--primary-color);
@@ -187,7 +179,8 @@
     text-align: center;
     border-radius: 0.25rem;
     cursor: pointer;
-    transition: 0.3s;
+    margin-left: 370px;
+    /* transition: 0.3s; */
   }
   .btn:hover {
     box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
@@ -215,7 +208,6 @@
 .fa-pen
  {
      text-indent:1rem;
-     
  }
 .status{
     float:right;
