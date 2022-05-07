@@ -204,8 +204,8 @@
 }
 
 .card1 {
-    width: 100%;
-    top:25px;
+    /* width: 100%;
+    top:25px; */
     /* padding-top:100px; */
     padding: 30px 20px;
     /* padding-left: 30px; */
@@ -215,7 +215,8 @@
     background-color: #fff;
 }
 .card1 h4{
-    padding-left: 650px;
+    margin-top: 20px;
+    padding-right: 650px;
     font-size: 30px;
 }
 
@@ -237,22 +238,17 @@
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
 .kcard{
-   padding:5px;background-color: white; border: 1px solid black;width: 15rem;margin-left: 108px;float:left; margin-top: 100px; 
+   padding:5px;background-color: white; border: 1px solid black;width: 15rem;margin-left: 108px;float:left; margin-top: 100px; height: auto;
     border-radius: 10px;
 }
 .card-img-top{
-    height:100px;min-width:120px; clip-path: circle();
+    height:100px;max-width:10px; clip-path: circle();
 }
-.fa-share-nodes{
-    text-indent: 3rem;
+
+.fa-square-pen , .fa-share-nodes, .fa-download{
+    font-size: 25px;;
 }
-.fa-download{
-    text-indent: 2.5rem;
-}
-.fa-square-pen
-{
-    text-indent:2rem;
-}
+
 .status{
     padding-top: 40px;
     float:right;
@@ -394,14 +390,14 @@
     height:100px;min-width:120px; clip-path: circle();
 }
 .fa-share-nodes{
-    text-indent: 3rem;
+    text-indent: 3.5rem;
 }
 .fa-download{
-    text-indent: 2.5rem;
+    text-indent: 3.5rem;
 }
 .fa-square-pen
 {
-    text-indent:2rem;
+    text-indent:0rem;
 }
 .status{
     padding-top: 40px;
